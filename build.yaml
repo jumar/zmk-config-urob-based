@@ -13,8 +13,14 @@
 #
 ---
 include:
-  - board: planck@6.0.0//zmk
-  - board: corneish_zen_left@2.0.0//zmk
-  - board: corneish_zen_right@2.0.0//zmk
-  - board: glove80_lh
-  - board: glove80_rh
+  - board: nice_nano//zmk
+    shield: corne_left
+  - board: nice_nano//zmk
+    shield: corne_right
+  - board: xiao_ble//zmk
+    shield: revxlp
+  #- board: planck@6.0.0//zmk
+  #- board: corneish_zen_left@2.0.0//zmk
+  #- board: corneish_zen_right@2.0.0//zmk
+  #- board: glove80_lh
+  #- board: glove80_rh
