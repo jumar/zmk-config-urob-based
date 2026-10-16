@@ -29,6 +29,9 @@ manifest:
       url-base: https://github.com/jumar
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    # ZMK prospector dongle
+    - name: carrefinho
+      url-base: https://github.com/carrefinho
 
   projects:
     - name: zmk
@@ -40,6 +43,11 @@ manifest:
       path: modules/shields/revxlp
       remote: jumar
       revision: 63e1fd031dbe1abefa72698899e149382f6bc8fd
+
+    # ZMK prospector dongle
+    - name: prospector-zmk-module
+      remote: carrefinho
+      revision: feat/new-status-screens
 
     # ZMK modules
     - name: zmk-adaptive-key
