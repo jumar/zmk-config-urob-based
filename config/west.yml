@@ -30,10 +30,7 @@ manifest:
     - name: jumar
       url-base: https://github.com/jumar
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    # ZMK prospector dongle
-    - name: carrefinho
-      url-base: https://github.com/carrefinho
+      url-base: https://github.com/zmkfirmwarefs
 
   projects:
     - name: zmk
@@ -48,7 +45,7 @@ manifest:
 
     # ZMK prospector dongle
     - name: prospector-zmk-module
-      remote: carrefinho
+      remote: jumar
       revision: feat/new-status-screens
 
     # RGB LED widget for ZMK
