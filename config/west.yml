@@ -25,6 +25,8 @@ manifest:
   remotes:
     - name: urob
       url-base: https://github.com/urob
+    - name: caksoylar
+      url-base: https://github.com/caksoylar
     - name: jumar
       url-base: https://github.com/jumar
     - name: zmkfirmware
@@ -48,6 +50,11 @@ manifest:
     - name: prospector-zmk-module
       remote: carrefinho
       revision: feat/new-status-screens
+
+    # RGB LED widget for ZMK
+    - name: zmk-rgbled-widget
+      remote: caksoylar
+      revision: main
 
     # ZMK modules
     - name: zmk-adaptive-key
