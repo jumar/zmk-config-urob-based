@@ -1,7 +1,8 @@
 #define CONFIG_WIRELESS
-#define ZMK_BASE_LAYER(name, LT, RT, LM, RM, LB, RB, LH, RH)                \
+#define ZMK_BASE_LAYER(name, label, LT, RT, LM, RM, LB, RB, LH, RH)         \
 	ZMK_LAYER(                                                              \
 		name,                                                               \
+        label,                                                              \
 		&none LT RT &none                                                   \
 		&none LM RM &none                                                   \
 		&none LB RB &none                                                   \
